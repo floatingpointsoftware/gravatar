@@ -1,0 +1,25 @@
+{
+    "name": "floatingpoint/laravel-gravatar",
+    "description": "Laravel 5 Gravatar helper",
+    "keywords" : ["laravel" , "laravel 5" , "gravatar" ] ,
+    "homepage" : "https://github.com/floatingpoint/gravatar" ,
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Kirk Bushell",
+            "role": "Lead developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "illuminate/html": "5.0.*",
+        "emberlabs/gravatarlib": "0.1.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "FloatingPoint\\Gravatar\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
