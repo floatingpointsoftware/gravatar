@@ -45,10 +45,10 @@ class Gravatar
      */
     public function exists($email)
 	{
-		$url = $this->gravatar->buildGravatarURL($email);
-		$headers = get_headers($url, 1);
-
-		return (boolean) strpos($headers[0], '200');
+	    $url = $this->gravatar->buildGravatarURL($email);
+	    $headers = get_headers($url, 1);
+	    
+	    return (boolean) strpos($headers[0], '200');
 	}
 
     /**
