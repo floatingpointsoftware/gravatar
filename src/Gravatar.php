@@ -1,8 +1,8 @@
 <?php
 namespace FloatingPoint\Gravatar;
 
-use emberlabs\GravatarLib\Gravatar as EmberTar
-    ;
+use emberlabs\GravatarLib\Gravatar as EmberTar;
+
 class Gravatar
 {
     /**
