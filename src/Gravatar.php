@@ -44,12 +44,12 @@ class Gravatar
      * @return bool
      */
     public function exists($email)
-	{
-	    $url = $this->gravatar->buildGravatarURL($email);
-	    $headers = get_headers($url, 1);
+    {
+        $url = $this->gravatar->buildGravatarURL($email);
+        $headers = get_headers($url, 1);
 	    
-	    return (boolean) strpos($headers[0], '200');
-	}
+        return (boolean) strpos($headers[0], '200');
+    }
 
     /**
      * Sets the default image to be used when no gravatar for a given email exists.
