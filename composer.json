@@ -1,6 +1,6 @@
 {
     "name": "floatingpoint/gravatar",
-    "description": "Laravel 5 Gravatar helper",
+    "description": "Gravatar library with Laravel 5 support.",
     "keywords" : ["laravel" , "laravel 5" , "gravatar" ] ,
     "homepage" : "https://github.com/floatingpoint/gravatar" ,
     "license" : "MIT",
@@ -13,11 +13,16 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "5.0.*",
-        "emberlabs/gravatarlib": "dev-master"
+        "thomaswelton/gravatarlib": "0.1.*"
+    },
+    "require-dev": {
+      "mockery/mockery": "~0.9.3",
+      "phpunit/phpunit": "~4.2."
     },
     "autoload": {
         "psr-4": {
-            "FloatingPoint\\Gravatar\\": "src/"
+            "FloatingPoint\\Gravatar\\": "src/",
+            "Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable"
