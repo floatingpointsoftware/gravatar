@@ -11,7 +11,7 @@ class Gravatar
     protected $defaultImage;
 
     /**
-     * @param emberlabs\GravatarLib\Gravatar $gravatar
+     * @param \emberlabs\GravatarLib\Gravatar $gravatar
      */
     public function __construct(EmberTar $gravatar)
     {

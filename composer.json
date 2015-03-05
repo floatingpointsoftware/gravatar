@@ -1,5 +1,5 @@
 {
-    "name": "floatingpoint/laravel-gravatar",
+    "name": "floatingpoint/gravatar",
     "description": "Laravel 5 Gravatar helper",
     "keywords" : ["laravel" , "laravel 5" , "gravatar" ] ,
     "homepage" : "https://github.com/floatingpoint/gravatar" ,
@@ -13,8 +13,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "5.0.*",
-        "illuminate/html": "5.0.*",
-        "emberlabs/gravatarlib": "0.1.x"
+        "emberlabs/gravatarlib": "dev-master"
     },
     "autoload": {
         "psr-4": {
