@@ -48,7 +48,7 @@ class Gravatar
 		$url = $this->gravatar->buildGravatarURL($email);
 		$headers = get_headers($url, 1);
 
-		return strpos($headers[0], '200');
+		return (boolean) strpos($headers[0], '200');
 	}
 
     /**
