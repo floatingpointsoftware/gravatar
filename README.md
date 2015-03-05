@@ -1,3 +1,7 @@
+# Gravatar
+
+Gravatar is a PHP 5.4+ gravatar support library, with an included Laravel 5 adapter and implementation.
+
 ## Installation
 
 Installation can be done via composer as per normal:
