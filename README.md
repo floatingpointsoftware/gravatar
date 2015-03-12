@@ -13,5 +13,5 @@ Installation can be done via composer as per normal:
 Register the Gravatar service provider by adding it to the providers array in the `app/config/app.php` file.
 
 ```
-FloatingPoint\Gravatar\GravatarServiceProvider
+FloatingPoint\Gravatar\LaravelGravatarServiceProvider
 ```
