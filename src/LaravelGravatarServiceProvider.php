@@ -2,7 +2,7 @@
 namespace FloatingPoint\Gravatar;
 
 use Illuminate\Support\ServiceProvider;
-use emberlabs\GravatarLib\Gravatar as GravatarLib;
+use thomaswelton\GravatarLib\Gravatar as GravatarLib;
 
 class LaravelGravatarServiceProvider extends ServiceProvider
 {
